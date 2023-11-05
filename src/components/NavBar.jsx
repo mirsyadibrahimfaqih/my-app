@@ -18,7 +18,7 @@ function NavBar() {
         <Fragment>
         <nav className={toggle ? '' : 'navBarcolor'}>
             <div className='nav-options'>
-                <h1 id={toggle ? '' : 'heading'}>zero film</h1>
+                <h1 id={toggle ? '' : 'heading'}>Zerofilm</h1>
                 <NavLink to="" style={({isActive}) => {return {color:isActive ? '#fff' : '#EE9B00'}}}>
                 <span id={toggle ? 'Movies' : 'MoviesLight'}>Movies</span>
                 </NavLink>
